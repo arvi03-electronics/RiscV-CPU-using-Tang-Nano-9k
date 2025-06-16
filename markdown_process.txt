@@ -1,0 +1,17 @@
+modules.md
+
+Core CPU:
+- instr_mem.v
+- reg_file.v
+- alu.v
+- imm_gen.v
+- control.v
+- cpu.v (top-level)
+
+Debug Interface:
+- uart_rx.v
+- uart_tx.v
+- debugger.v
+
+FPGA Wrapper:
+- top.v (includes GPIO/UART)
